@@ -1,4 +1,4 @@
-from hello import toyou, add, subtract
+from hello import greetings, add, subtract
 
 
 def setup_function(function):
@@ -15,5 +15,10 @@ def teardown_function(function):
 #def test_hello_add():
 #    assert add(test_hello_add.x) == 12
 
+
 def test_hello_subtract():
     assert subtract(test_hello_subtract.x) == 9
+
+
+def test_greetings():
+    assert greetings == "Template repo"
