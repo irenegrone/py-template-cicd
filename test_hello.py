@@ -21,4 +21,4 @@ def test_hello_subtract():
 
 
 def test_greetings():
-    assert greetings == "Template repo"
+    assert greetings() == "Template repo"
