@@ -1,11 +1,11 @@
 from hello import greetings, add, subtract
 
 
-# def setup_function(function):
-#     print(f" Running Setup: {function.__name__}")
-#     function.x = 10
-#
-#
+def setup_function(function):
+    print(f" Running Setup: {function.__name__}")
+    function.x = 10
+
+
 # def teardown_function(function):
 #     print(f" Running Teardown: {function.__name__}")
 #     del function.x
